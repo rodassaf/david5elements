@@ -1,3 +1,8 @@
+#--------------------------------------------------------
+#Grupo Jogos Digitais
+#Game David e os 5 Elementos
+#--------------------------------------------------------
+
 extends Node2D
 var velocity = Vector2()
 var speed = 6000
