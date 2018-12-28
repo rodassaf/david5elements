@@ -1,0 +1,214 @@
+[gd_scene load_steps=88 format=2]
+
+[ext_resource path="res://stage_fire.gd" type="Script" id=1]
+[ext_resource path="res://sprites/cenario/fire/fire01.jpg" type="Texture" id=2]
+[ext_resource path="res://sprites/characters/david/idle/idle_0008.png" type="Texture" id=3]
+[ext_resource path="res://sprites/characters/david/idle/idle_0009.png" type="Texture" id=4]
+[ext_resource path="res://sprites/characters/david/idle/idle_0010.png" type="Texture" id=5]
+[ext_resource path="res://sprites/characters/david/idle/idle_0011.png" type="Texture" id=6]
+[ext_resource path="res://sprites/characters/david/idle/idle_0012.png" type="Texture" id=7]
+[ext_resource path="res://sprites/characters/david/idle/idle_0013.png" type="Texture" id=8]
+[ext_resource path="res://sprites/characters/david/idle/idle_0014.png" type="Texture" id=9]
+[ext_resource path="res://sprites/characters/david/idle/idle_0015.png" type="Texture" id=10]
+[ext_resource path="res://sprites/characters/david/idle/idle_0016.png" type="Texture" id=11]
+[ext_resource path="res://sprites/characters/david/idle/idle_0017.png" type="Texture" id=12]
+[ext_resource path="res://sprites/characters/david/idle/idle_0018.png" type="Texture" id=13]
+[ext_resource path="res://sprites/characters/david/idle/idle_0019.png" type="Texture" id=14]
+[ext_resource path="res://sprites/characters/david/idle/idle_0020.png" type="Texture" id=15]
+[ext_resource path="res://sprites/characters/david/idle/idle_0021.png" type="Texture" id=16]
+[ext_resource path="res://sprites/characters/david/idle/idle_0022.png" type="Texture" id=17]
+[ext_resource path="res://sprites/characters/david/idle/idle_0023.png" type="Texture" id=18]
+[ext_resource path="res://sprites/characters/david/idle/idle_0024.png" type="Texture" id=19]
+[ext_resource path="res://sprites/characters/david/idle/idle_0025.png" type="Texture" id=20]
+[ext_resource path="res://sprites/characters/david/idle/idle_0026.png" type="Texture" id=21]
+[ext_resource path="res://sprites/characters/david/idle/idle_0027.png" type="Texture" id=22]
+[ext_resource path="res://sprites/characters/david/idle/idle_0028.png" type="Texture" id=23]
+[ext_resource path="res://sprites/characters/david/idle/idle_0029.png" type="Texture" id=24]
+[ext_resource path="res://sprites/characters/david/idle/idle_0030.png" type="Texture" id=25]
+[ext_resource path="res://sprites/characters/david/idle/idle_0031.png" type="Texture" id=26]
+[ext_resource path="res://sprites/characters/david/idle/idle_0032.png" type="Texture" id=27]
+[ext_resource path="res://sprites/characters/david/jump/jump_0021.png" type="Texture" id=28]
+[ext_resource path="res://sprites/characters/david/jump/jump_0022.png" type="Texture" id=29]
+[ext_resource path="res://sprites/characters/david/jump/jump_0023.png" type="Texture" id=30]
+[ext_resource path="res://sprites/characters/david/jump/jump_0024.png" type="Texture" id=31]
+[ext_resource path="res://sprites/characters/david/jump/jump_0025.png" type="Texture" id=32]
+[ext_resource path="res://sprites/characters/david/jump/jump_0026.png" type="Texture" id=33]
+[ext_resource path="res://sprites/characters/david/jump/jump_0027.png" type="Texture" id=34]
+[ext_resource path="res://sprites/characters/david/jump/jump_0029.png" type="Texture" id=35]
+[ext_resource path="res://sprites/characters/david/jump/jump_0030.png" type="Texture" id=36]
+[ext_resource path="res://sprites/characters/david/jump/jump_0031.png" type="Texture" id=37]
+[ext_resource path="res://sprites/characters/david/jump/jump_0028.png" type="Texture" id=38]
+[ext_resource path="res://sprites/characters/david/jump/jump_0020.png" type="Texture" id=39]
+[ext_resource path="res://sprites/characters/david/walk/walk_0008.png" type="Texture" id=40]
+[ext_resource path="res://sprites/characters/david/walk/walk_0009.png" type="Texture" id=41]
+[ext_resource path="res://sprites/characters/david/walk/walk_0010.png" type="Texture" id=42]
+[ext_resource path="res://sprites/characters/david/walk/walk_0011.png" type="Texture" id=43]
+[ext_resource path="res://sprites/characters/david/walk/walk_0012.png" type="Texture" id=44]
+[ext_resource path="res://sprites/characters/david/walk/walk_0013.png" type="Texture" id=45]
+[ext_resource path="res://sprites/characters/david/walk/walk_0014.png" type="Texture" id=46]
+[ext_resource path="res://sprites/characters/david/walk/walk_0015.png" type="Texture" id=47]
+[ext_resource path="res://sprites/characters/david/walk/walk_0016.png" type="Texture" id=48]
+[ext_resource path="res://sprites/characters/david/walk/walk_0017.png" type="Texture" id=49]
+[ext_resource path="res://sprites/characters/david/walk/walk_0018.png" type="Texture" id=50]
+[ext_resource path="res://sprites/characters/david/walk/walk_0019.png" type="Texture" id=51]
+[ext_resource path="res://sprites/characters/david/walk/walk_0020.png" type="Texture" id=52]
+[ext_resource path="res://sprites/characters/david/walk/walk_0021.png" type="Texture" id=53]
+[ext_resource path="res://sprites/characters/david/walk/walk_0022.png" type="Texture" id=54]
+[ext_resource path="res://sprites/characters/david/walk/walk_0023.png" type="Texture" id=55]
+[ext_resource path="res://sprites/characters/david/walk/walk_0024.png" type="Texture" id=56]
+[ext_resource path="res://sprites/characters/david/walk/walk_0025.png" type="Texture" id=57]
+[ext_resource path="res://sprites/characters/david/walk/walk_0026.png" type="Texture" id=58]
+[ext_resource path="res://sprites/characters/david/walk/walk_0027.png" type="Texture" id=59]
+[ext_resource path="res://sprites/characters/david/walk/walk_0028.png" type="Texture" id=60]
+[ext_resource path="res://sprites/characters/david/walk/walk_0029.png" type="Texture" id=61]
+[ext_resource path="res://sprites/characters/david/walk/walk_0030.png" type="Texture" id=62]
+[ext_resource path="res://sprites/characters/david/walk/walk_0031.png" type="Texture" id=63]
+[ext_resource path="res://sprites/characters/david/walk/walk_0000.png" type="Texture" id=64]
+[ext_resource path="res://sprites/characters/david/walk/walk_0001.png" type="Texture" id=65]
+[ext_resource path="res://sprites/characters/david/walk/walk_0002.png" type="Texture" id=66]
+[ext_resource path="res://sprites/characters/david/walk/walk_0003.png" type="Texture" id=67]
+[ext_resource path="res://sprites/characters/david/walk/walk_0004.png" type="Texture" id=68]
+[ext_resource path="res://sprites/characters/david/walk/walk_0005.png" type="Texture" id=69]
+[ext_resource path="res://sprites/characters/david/walk/walk_0006.png" type="Texture" id=70]
+[ext_resource path="res://sprites/characters/david/walk/walk_0007.png" type="Texture" id=71]
+[ext_resource path="res://sprites/characters/david/jump/jump_0008.png" type="Texture" id=72]
+[ext_resource path="res://sprites/characters/david/jump/jump_0009.png" type="Texture" id=73]
+[ext_resource path="res://sprites/characters/david/jump/jump_0010.png" type="Texture" id=74]
+[ext_resource path="res://sprites/characters/david/jump/jump_0011.png" type="Texture" id=75]
+[ext_resource path="res://sprites/characters/david/jump/jump_0012.png" type="Texture" id=76]
+[ext_resource path="res://sprites/characters/david/jump/jump_0013.png" type="Texture" id=77]
+[ext_resource path="res://sprites/characters/david/jump/jump_0014.png" type="Texture" id=78]
+[ext_resource path="res://sprites/characters/david/jump/jump_0015.png" type="Texture" id=79]
+[ext_resource path="res://sprites/characters/david/jump/jump_0016.png" type="Texture" id=80]
+[ext_resource path="res://sprites/characters/david/jump/jump_0017.png" type="Texture" id=81]
+[ext_resource path="res://sprites/characters/david/jump/jump_0018.png" type="Texture" id=82]
+[ext_resource path="res://sprites/characters/david/jump/jump_0019.png" type="Texture" id=83]
+[ext_resource path="res://sprites/luz.jpg" type="Texture" id=84]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "default",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ) ],
+"loop": false,
+"name": "up",
+"speed": 90.0
+}, {
+"frames": [ ExtResource( 37 ), ExtResource( 36 ), ExtResource( 35 ), ExtResource( 38 ), ExtResource( 34 ), ExtResource( 33 ), ExtResource( 31 ), ExtResource( 39 ) ],
+"loop": false,
+"name": "down",
+"speed": 90.0
+}, {
+"frames": [ ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ) ],
+"loop": true,
+"name": "walk",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 39 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 38 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ) ],
+"loop": false,
+"name": "jump",
+"speed": 40.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+
+custom_solver_bias = 0.0
+radius = 21.1509
+height = 86.9295
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 650.46, 10 )
+
+[node name="root" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="Cenario" type="StaticBody2D" parent="." index="0"]
+
+position = Vector2( 639.002, 361.001 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="Sprite" type="Sprite" parent="Cenario" index="0"]
+
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="David" type="KinematicBody2D" parent="." index="1"]
+
+position = Vector2( 135.117, 647.285 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="David" index="0"]
+
+frames = SubResource( 1 )
+animation = "default"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="David" index="1"]
+
+position = Vector2( -1.94121, 4.85303 )
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Light2D" type="Light2D" parent="David" index="2"]
+
+position = Vector2( 95, -1 )
+enabled = true
+editor_only = false
+texture = ExtResource( 84 )
+offset = Vector2( 0, 0 )
+texture_scale = 1.32
+color = Color( 1, 1, 1, 1 )
+energy = 2.0
+mode = 0
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." index="2"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" index="0"]
+
+position = Vector2( 648.9, 729.222 )
+shape = SubResource( 3 )
+
+
