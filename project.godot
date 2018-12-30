@@ -11,7 +11,7 @@ config_version=3
 [application]
 
 config/name="David 5 Elementos"
-run/main_scene="res://stage_fire.tscn"
+run/main_scene="res://menu.tscn"
 config/icon="res://icon.png"
 
 [display]

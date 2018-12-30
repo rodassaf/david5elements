@@ -19,39 +19,45 @@ func _ready():
 
 
 func _process(delta):
-	if Input.is_action_pressed("ui_right"):
+	if Input.is_action_pressed("ui_right") and not Input.is_action_pressed("ui_down"):
 		$David/AnimatedSprite.set_flip_h(false)
 		velocity.x = speed*delta
 		if Input.is_action_pressed("ui_up"):
 			$David/AnimatedSprite.play("jump")
 		else:
-			if ($David/AnimatedSprite.get_animation() == "jump" && $David/AnimatedSprite.get_frame() == 23) || $David/AnimatedSprite.get_animation() != "jump":
+			if ($David/AnimatedSprite.get_animation() == "jump" && $David/AnimatedSprite.get_frame() > 21) || $David/AnimatedSprite.get_animation() != "jump":
 				$David/AnimatedSprite.play("walk")
 				
 		
-	if Input.is_action_pressed("ui_left"):
+	if Input.is_action_pressed("ui_left") and not Input.is_action_pressed("ui_down"):
 		$David/AnimatedSprite.set_flip_h(true)
 		velocity.x = -speed*delta
 		if Input.is_action_pressed("ui_up"):
 			$David/AnimatedSprite.play("jump")
 		else:
-			if ($David/AnimatedSprite.get_animation() == "jump" && $David/AnimatedSprite.get_frame() == 23) || $David/AnimatedSprite.get_animation() != "jump":
+			if ($David/AnimatedSprite.get_animation() == "jump" && $David/AnimatedSprite.get_frame() > 21) || $David/AnimatedSprite.get_animation() != "jump":
 				$David/AnimatedSprite.play("walk")
 			
 	
-	if Input.is_action_pressed("ui_down"):
+	if $David.is_on_floor() && Input.is_action_pressed("ui_down"):
 		$David/AnimatedSprite.play("down")
+		#if Input.is_action_pressed("ui_left") || Input.is_action_pressed("ui_right"):
+		#	velocity.x = 0
+		
 	
 	#ACTION JUST RELEASED --------------------------------	
-	if Input.is_action_just_released("ui_right"):
+	if Input.is_action_just_released("ui_right") && $David/AnimatedSprite.get_animation() != "down":
 		#yield(get_node("David/AnimatedSprite"), "finished")
 		$David/AnimatedSprite.play("default")
 	
-	if Input.is_action_just_released("ui_left"):
+	if Input.is_action_just_released("ui_left") && $David/AnimatedSprite.get_animation() != "down":
 		$David/AnimatedSprite.play("default")
 	
 	if Input.is_action_just_released("ui_down"):
 		$David/AnimatedSprite.play("up")
+	
+	if ($David/AnimatedSprite.get_animation() == "up" && $David/AnimatedSprite.get_frame() > 8):
+		$David/AnimatedSprite.play("default")
 	#-------------------------------------------------------------
 	
 	if $David.is_on_floor() && Input.is_action_just_pressed("ui_up"):
