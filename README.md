@@ -6,3 +6,5 @@ Que Doidera!!!!!
 Agora vai!!!!
 Corinthians
 Eh Noix!
+Porra!
+Vamos!
